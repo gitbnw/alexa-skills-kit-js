@@ -21,245 +21,93 @@
  */
 var questions = [
     {
-        "Reindeer have very thick coats, how many hairs per square inch do they have?": [
-            "13,000",
-            "1,200",
-            "5,000",
-            "700",
-            "1,000",
-            "120,000"
+        "Stan the Man's career batting average (without the decimal) was:": [
+            "331",
+            "315",
+            "322",
+            "302",
+            "338",
+            "400"
         ]
     },
     {
-        "The 1964 classic Rudolph The Red Nosed Reindeer was filmed in:": [
-            "Japan",
-            "United States",
-            "Finland",
-            "Germany"
+        "Who is franchise leader in strikeouts for the Cardinals?": [
+            "Bob Gibson",
+            "Adam Wainwright",
+            "Jose DeLeon",
+            "Aaron Hill"
         ]
     },
     {
-        "Santas reindeer are cared for by one of the Christmas elves, what is his name?": [
-            "Wunorse Openslae",
-            "Alabaster Snowball",
-            "Bushy Evergreen",
-            "Pepper Minstix"
+        "Which of these teams  has won the most World Series rings against the Cardinals is the:": [
+            "Boston Red Sox",
+            "Brooklyn Dodgers",
+            "Baltimore Orioles",
+            "Chicago White Sox"
         ]
     },
     {
-        "If all of Santas reindeer had antlers while pulling his Christmas sleigh, they would all be:": [
-            "Girls",
-            "Boys",
-            "Girls and boys",
-            "No way to tell"
+        "Mark McGwire hit number 62 off of Steve Trachsel of the Cubs. Who did he hit number 61 off of?": [
+            "Mike Morgan",
+            "Kevin Tapani",
+            "Roger Clemens",
+            "Steve Trachsel"
         ]
     },
     {
-        "What do Reindeer eat?": [
-            "Lichen",
-            "Grasses",
-            "Leaves",
-            "Berries"
+        "What number did Lou Brock wear?": [
+            "20",
+            "28",
+            "31",
+            "99"
         ]
     },
     {
-        "What of the following is not true?": [
-            "Caribou live on all continents",
-            "Both reindeer and Caribou are the same species",
-            "Caribou are bigger than reindeer",
-            "Reindeer live in Scandinavia and Russia"
+        "From 1901 to 1918, the Cardinals played where?": [
+            "Robison Field",
+            "Trans World Dome",
+            "PBR Stadium",
+            "Busch Stadium"
         ]
     },
     {
-        "In what year did Rudolph make his television debut?": [
-            "1964",
-            "1979",
-            "2000",
-            "1956"
+        "On what team was Edgar Renteria on before he was playing on the Cards?": [
+            "Marlins",
+            "Cubs",
+            "Expos",
+            "Devil Rays"
         ]
     },
     {
-        "Who was the voice of Rudolph in the 1964 classic?": [
-            "Billie Mae Richards",
-            "Burl Ives",
-            "Paul Soles",
-            "Lady Gaga"
+        "Where was Jack Buck born?": [
+            "Holyoke, Massachusetts",
+            "St. Louis, Missouri",
+            "Surprise, Arizona",
+            "The Moon"
         ]
     },
     {
-        "In 1939 what retailer used the story of Rudolph the Red Nose Reindeer?": [
-            "Montgomery Ward",
-            "Sears",
-            "Macys",
-            "Kmart"
+        "Whose dramatic homerun caused Cardinal announcer Jack Buck to scream Go crazy folks! Go crazy! ?": [
+            "Ozzie Smith",
+            "Lonnie Smith",
+            "Bud Smith",
+            "Agent Smith"
         ]
     },
     {
-        "Santa's reindeer named Donner was originally named what?": [
-            "Dunder",
-            "Donny",
-            "Dweedle",
-            "Dreamy"
+        "Enos Slaughter's game winning Mad Dash from first to home to score the winning run in the 1946 World Series was vs which team? ": [
+            "Boston Red Sox",
+            "Detroit Tigers",
+            "Anaheim Angels",
+            "New York Yankees"
         ]
     },
     {
-        "Who invented the story of Rudolph?": [
-            "Robert May",
-            "Johnny Marks",
-            "Santa",
-            "J.K. Rowling"
-        ]
-    },
-    {
-        "In what location will you not find reindeer?": [
-            "North Pole",
-            "Lapland",
-            "Korvatunturi mountain",
-            "Finland"
-        ]
-    },
-    {
-        "What Makes Santa's Reindeer Fly?": [
-            "Magical Reindeer Dust",
-            "Fusion",
-            "Amanita muscaria",
-            "Elves"
-        ]
-    },
-    {
-        "Including Rudolph, how many reindeer hooves are there?": [
-            "36",
-            "24",
-            "16",
-            "8"
-        ]
-    },
-    {
-        "Santa only has one female reindeer. Which one is it?": [
-            "Vixen",
-            "Clarice",
-            "Cupid",
-            "Cupid"
-        ]
-    },
-    {
-        "In the 1964 classic Rudolph The Red Nosed Reindeer, what was the snowman narrators name?": [
-            "Sam",
-            "Frosty",
-            "Burl",
-            "Snowy"
-        ]
-    },
-    {
-        "What was Rudolph's father's name?": [
-            "Donner",
-            "Dasher",
-            "Blixen",
-            "Comet"
-        ]
-    },
-    {
-        "In the 1964 movie, What was the name of the coach of the Reindeer Games?": [
-            "Comet",
-            "Blixen",
-            "Donner",
-            "Dasher"
-        ]
-    },
-    {
-        "In the 1964 movie, what is the name of the deer that Rudolph befriends at the reindeer games?": [
-            "Fireball",
-            "Clarice",
-            "Jumper",
-            "Vixen"
-        ]
-    },
-    {
-        "In the 1964 movie, How did Donner, Rudolph's father, try to hide Rudolph's nose?": [
-            "Black mud",
-            "Bag",
-            "Pillow case",
-            "Sock"
-        ]
-    },
-    {
-        "In the 1964 movie, what does the Misfit Elf want to be instead of a Santa Elf?": [
-            "Dentist",
-            "Reindeer",
-            "Toy maker",
-            "Candlestick maker"
-        ]
-    },
-    {
-        "In the 1964 movie,what was the Bumble's one weakness?": [
-            "Could not swim",
-            "Always hungry",
-            "Candy canes",
-            "Cross eyed"
-        ]
-    },
-    {
-        "In the 1964 movie, what is Yukon Cornelius really in search of?": [
-            "Peppermint",
-            "Gold",
-            "India",
-            "Polar Bears"
-        ]
-    },
-    {
-        "In the 1964 movie, why is the train on the Island of Misfit Toys?": [
-            "Square wheels",
-            "No Engine",
-            "Paint does not match",
-            "It does not toot"
-        ]
-    },
-    {
-        "In the 1964 movie, what is the name of the Jack in the Box?": [
-            "Charlie",
-            "Sam",
-            "Billy",
-            "Jack"
-        ]
-    },
-    {
-        "In the 1964 movie, why did Santa Claus almost cancel Christmas?": [
-            "Storm",
-            "No snow",
-            "No toys",
-            "The Reindeer were sick"
-        ]
-    },
-    {
-        "In the 1964 movie, what animal noise did the elf make to distract the Bumble?": [
-            "Oink",
-            "Growl",
-            "Bark",
-            "Meow"
-        ]
-    },
-    {
-        "In the 1964 movie, what is the name of the prospector?": [
-            "Yukon Cornelius",
-            "Slider Sam",
-            "Bumble",
-            "Jack"
-        ]
-    },
-    {
-        "How far do reindeer travel when they migrate?": [
-            "3000 miles",
-            "700 miles",
-            "500 miles",
-            "0 miles"
-        ]
-    },
-    {
-        "How fast can a reindeer run?": [
-            "48 miles per hour",
-            "17 miles per hour",
-            "19 miles per hour",
-            "14 miles per hour"
+        "Which Cardinal was known to have launched a foul ball out of the stadium?": [
+            "Mike Laga",
+            "Ted Simmons",
+            "Mark McGwire",
+            "Scott Rolen"
         ]
     }
 ];
@@ -348,6 +196,8 @@ function onIntent(intentRequest, session, callback) {
     if ("AnswerIntent" === intentName) {
         handleAnswerRequest(intent, session, callback);
     } else if ("AnswerOnlyIntent" === intentName) {
+        handleAnswerRequest(intent, session, callback);
+    } else if ("DontKnowIntent" === intentName) {
         handleAnswerRequest(intent, session, callback);
     } else if ("AMAZON.YesIntent" === intentName) {
         handleAnswerRequest(intent, session, callback);
@@ -485,6 +335,7 @@ function handleAnswerRequest(intent, session, callback) {
     var sessionAttributes = {};
     var gameInProgress = session.attributes && session.attributes.questions;
     var answerSlotValid = isAnswerSlotValid(intent);
+    var userGaveUp = intent.name === "DontKnowIntent";
 
     if (!gameInProgress) {
         // If the user responded with an answer but there is no game in progress, ask the user
@@ -493,15 +344,14 @@ function handleAnswerRequest(intent, session, callback) {
         speechOutput = "There is no game in progress. Do you want to start a new game? ";
         callback(sessionAttributes,
             buildSpeechletResponse(CARD_TITLE, speechOutput, speechOutput, false));
-    } else if (!answerSlotValid) {
+    } else if (!answerSlotValid && !userGaveUp) {
         // If the user provided answer isn't a number > 0 and < ANSWER_COUNT,
         // return an error message to the user. Remember to guide the user into providing correct values.
         var reprompt = session.attributes.speechOutput;
         var speechOutput = "Your answer must be a number between 1 and " + ANSWER_COUNT + ". " + reprompt;
         callback(session.attributes,
             buildSpeechletResponse(CARD_TITLE, speechOutput, reprompt, false));
-    }
-    else {
+    } else {
         var gameQuestions = session.attributes.questions,
             correctAnswerIndex = parseInt(session.attributes.correctAnswerIndex),
             currentScore = parseInt(session.attributes.score),
@@ -509,18 +359,21 @@ function handleAnswerRequest(intent, session, callback) {
             correctAnswerText = session.attributes.correctAnswerText;
 
         var speechOutputAnalysis = "";
-        var answerSlot = intent.slots.Answer;
 
-        if (parseInt(answerSlot.value) == correctAnswerIndex) {
+        if (answerSlotValid && parseInt(intent.slots.Answer.value) == correctAnswerIndex) {
             currentScore++;
             speechOutputAnalysis = "correct. ";
         } else {
-            speechOutputAnalysis = "wrong. The correct answer is " + correctAnswerIndex + ": " + correctAnswerText + ". ";
+            if (!userGaveUp) {
+                speechOutputAnalysis = "wrong. "
+            }
+            speechOutputAnalysis += "The correct answer is " + correctAnswerIndex + ": " + correctAnswerText + ". ";
         }
         // if currentQuestionIndex is 4, we've reached 5 questions (zero-indexed) and can exit the game session
         if (currentQuestionIndex == GAME_LENGTH - 1) {
-            speechOutput = "That answer is " + speechOutputAnalysis + "You got " +
-                currentScore.toString() + " out of " + GAME_LENGTH.toString() + " questions correct. Thank you for playing!";
+            speechOutput = userGaveUp ? "" : "That answer is ";
+            speechOutput += speechOutputAnalysis + "You got " + currentScore.toString() + " out of "
+                + GAME_LENGTH.toString() + " questions correct. Thank you for playing!";
             callback(session.attributes,
                 buildSpeechletResponse(CARD_TITLE, speechOutput, "", true));
         } else {
@@ -535,7 +388,8 @@ function handleAnswerRequest(intent, session, callback) {
             for (var i = 0; i < ANSWER_COUNT; i++) {
                 repromptText += (i+1).toString() + ". " + roundAnswers[i] + ". "
             }
-            speechOutput += "That answer is " + speechOutputAnalysis + "Your score is " + currentScore.toString() + ". " + repromptText;
+            speechOutput += userGaveUp ? "" : "That answer is ";
+            speechOutput += speechOutputAnalysis + "Your score is " + currentScore.toString() + ". " + repromptText;
 
             sessionAttributes = {
                 "speechOutput": repromptText,
@@ -573,11 +427,11 @@ function handleGetHelpRequest(intent, session, callback) {
 
     // Do not edit the help dialogue. This has been created by the Alexa team to demonstrate best practices.
 
-    var speechOutput = "I will ask you " + GAME_LENGTH + " multiple choice questions. Respond with the answer's number only. "
+    var speechOutput = "I will ask you " + GAME_LENGTH + " multiple choice questions. Respond with the number of the answer. "
         + "For example, say one, two, three, or four. To start a new game at any time, say, start game. "
         + "To repeat the last question, say, repeat. "
         + "Would you like to keep playing?",
-        repromptText = "To give an answer to a question, respond with a number only. "
+        repromptText = "To give an answer to a question, respond with the number of the answer . "
         + "Would you like to keep playing?";
         var shouldEndSession = false;
     callback(session.attributes,
@@ -643,4 +497,3 @@ function buildResponse(sessionAttributes, speechletResponse) {
         response: speechletResponse
     };
 }
-
