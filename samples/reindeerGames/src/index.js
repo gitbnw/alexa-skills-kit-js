@@ -21,29 +21,29 @@
  */
 var questions = [
     {
-        "Reindeer have very thick coats, how many hairs per square inch do they have?": [
-            "13,000",
-            "1,200",
-            "5,000",
-            "700",
-            "1,000",
-            "120,000"
+        "Stan the Man's career batting average (without the decimal) was:": [
+            "302",
+            "315",
+            "322",
+            "331",
+            "338",
+            "400"
         ]
     },
     {
-        "The 1964 classic Rudolph The Red Nosed Reindeer was filmed in:": [
-            "Japan",
-            "United States",
-            "Finland",
-            "Germany"
+        "Who is franchise leader in strikeouts for the Cardinals?": [
+            "Bob Gibson",
+            "Adam Wainwright",
+            "Jose DeLeon",
+            "Aaron Hill"
         ]
     },
     {
-        "Santas reindeer are cared for by one of the Christmas elves, what is his name?": [
-            "Wunorse Openslae",
-            "Alabaster Snowball",
-            "Bushy Evergreen",
-            "Pepper Minstix"
+        "Which team has won the most World Series rings against the Cardinals is the:": [
+            "Brooklyn Dodgers",
+            "Baltimore Orioles",
+            "Boston Red Sox",
+            "Chicago White Sox"
         ]
     },
     {
@@ -649,4 +649,3 @@ function buildResponse(sessionAttributes, speechletResponse) {
         response: speechletResponse
     };
 }
-
