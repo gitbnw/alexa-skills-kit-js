@@ -109,6 +109,86 @@ var questions = [
             "Mark McGwire",
             "Scott Rolen"
         ]
+    },
+    {
+        "How many redbirds perch on the bat in the team’s jersey logo?": [
+            "2",
+            "1",
+            "4",
+            "932"
+        ]
+    },
+    {
+        "What famous baseball figure was in the Cardinals’ front office when the team won its first World Series in 1926?": [
+            "Branch Rickey",
+            "Abraham Lincoln",
+            "Harry Truman",
+            "Kiko Calero"
+            ]
+    },
+    {
+        "Rogers Hornsby won the Triple Crown twice while wearing a St. Louis uniform.  What as his batting average?": [
+            "400",
+            "330",
+            "352",
+            "202"
+            ]
+    },
+    {
+        "What odd occurrence ended rookie outfielder Vince Coleman’s season in 1985 before Game 4 of the National League Championship Series?": [
+            "He sustained an injury when an automated tarpaulin ran over one of his legs.",
+            "He threw some firecrackers at people.",
+            "He saw the double rainbow",
+            "He ate a Cinnabon"
+            ]
+    },
+    {
+        "Stan Musial was fond of playing what musical instrument?":[
+            "Harmonica",
+            "Electric Guitar",
+            "Moog",
+            "Theremin"
+            ]
+    },
+    {
+        "What famous slugger ended his career with the Cardinals?":[
+            "Roger Maris",
+            "Babe Ruth",
+            "Oil Can Boyd",
+            "Hank Arron"
+            ]
+    },
+    {
+        "The 1934 champion Cardinals were known by what unusual nickname?":[
+            "Gas House Gang",
+            "Running Redbirds",
+            "Murderer's Row",
+            "Just some guys who play baseball"
+            ]
+    },
+    {
+        "Who was the last Cardinal, as well as last National Leaguer, to win a Triple Crown as the season-long leader in batting average, home runs, and runs batted in?":[
+            "Joe Medwick",
+            "Albert Pujols",
+            "Rogers Hornsby",
+            "Brendan Ryan"
+            ]
+    },
+    {
+        "The Cardinals were founded in 1892, and called what?":[
+            "The Brown Stockings",
+            "The Redbird Raiders",
+            "The Midwest Muckrackers",
+            "Stan Kroenke's Hairpiece"
+            ]
+    },
+    {
+        "What was Stan Musial's childhood nickname?":[
+            "Stashu",
+            "The Boy Who Will Be The Man",
+            "Harmonica Kid",
+            "Stan Lee"
+            ]
     }
 ];
 
@@ -123,9 +203,9 @@ exports.handler = function (event, context) {
          * prevent someone else from configuring a skill that sends requests to this function.
          */
 
-//     if (event.session.application.applicationId !== "amzn1.echo-sdk-ams.app.05aecccb3-1461-48fb-a008-822ddrt6b516") {
-//         context.fail("Invalid Application ID");
-//      }
+    if (event.session.application.applicationId !== "amzn1.echo-sdk-ams.app.e5aeb71e-628b-4fd3-808a-ede87a762364") {
+        context.fail("Invalid Application ID");
+     }
 
         if (event.session.new) {
             onSessionStarted({requestId: event.request.requestId}, event.session);
@@ -233,11 +313,11 @@ function onSessionEnded(sessionEndedRequest, session) {
 
 var ANSWER_COUNT = 4;
 var GAME_LENGTH = 5;
-var CARD_TITLE = "Reindeer Games"; // Be sure to change this for your skill.
+var CARD_TITLE = "Redbird Games"; // Be sure to change this for your skill.
 
 function getWelcomeResponse(callback) {
     var sessionAttributes = {},
-        speechOutput = "Reindeer Games. I will ask you " + GAME_LENGTH.toString()
+        speechOutput = "Redbird Games. I will ask you " + GAME_LENGTH.toString()
             + " questions, try to get as many right as you can. Just say the number of the answer. Let's begin. ",
         shouldEndSession = false,
 
